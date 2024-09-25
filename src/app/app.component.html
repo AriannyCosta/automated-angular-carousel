@@ -1,0 +1,10 @@
+<h1 class="text-center">Angular Image Carousel</h1>
+<div class="carousel">
+  <div class="item" [style.backgroundImage]="getImageUrl()"></div>
+
+  <div class="buttons-control">
+    <button *ngFor="let image of images; index as i" [class.active]="i === activeImageIndex" (click)="selectImage(i)">
+    </button>
+  </div>
+</div>
+<img *ngFor="let image of images" [src]="image" width="1" height="1" style="opacity: 0; position: fixed" />
