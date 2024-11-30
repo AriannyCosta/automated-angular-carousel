@@ -17,7 +17,6 @@ An interactive image carousel implemented in Angular, now with automated feature
 - RxJS
 
 ## Installation
-## Installation
 
 ### Option 1: View Online on StackBlitz
 No need to install anything locally! You can view and interact with the project directly on StackBlitz:
